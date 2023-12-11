@@ -6,7 +6,7 @@
 
 本專案的一大亮點是它能夠在圖像數據保持加密的狀態下，執行圖像匹配操作。圖像匹配操作能夠很好地測試同态加密在實際應用中的性能和實用性。通過本專案，我們旨在為全同态加密技術在現實世界應用中的進一步發展提供實驗基礎和啟發。
 
-[English](https://chat.openai.com/README.md) | [繁體中文](https://chat.openai.com/c/README.zh-TW.md) | 簡體中文
+[English](../README.md) | [简体中文](README.zh-CN.md) | 繁體中文
 
 ## 目錄
 
