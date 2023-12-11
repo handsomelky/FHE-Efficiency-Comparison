@@ -46,7 +46,7 @@ def encrypt_image(image_path, algorithm, context, output_folder):
     encrypted_filename = os.path.splitext(os.path.basename(image_path))[0] + "_encrypted"
     encrypted_file_path = os.path.join(output_folder, encrypted_filename)
 
-    ts.BFVVector.pack_vectors
+
     with open(encrypted_file_path, "wb") as f:
         f.write(encrypted_data_serialize)
 
