@@ -1,4 +1,4 @@
-# Fully Homomorphic Encryption Algorithm Efficiency Testing - FHE Efficiency Comparison
+# FHE Efficiency Comparison
 
 This project is an innovative image encryption and matching system, based on two advanced fully homomorphic encryption algorithms: BFV and CKKS. It aims to demonstrate the application potential of fully homomorphic encryption technology in the fields of secure image processing and privacy protection.
 
