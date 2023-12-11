@@ -26,15 +26,15 @@ A major highlight of this project is its ability to perform image matching opera
   + [Environment Setup](https://github.com/handsomelky/FHE-Efficiency-Comparison#environment-setup)
   + [Preparing Test Data](https://github.com/handsomelky/FHE-Efficiency-Comparison#preparing-test-data)
   + [Encrypting Data](https://github.com/handsomelky/FHE-Efficiency-Comparison#encrypting-data)
-  + [Storing in Database](https://github.com/handsomelky/FHE-Efficiency-Comparison#storing-in-database)
+  + [Storing in Database](https://github.com/handsomelky/FHE-Efficiency-Comparison#storing-data-in-the-database)
   + [Query Matching](https://github.com/handsomelky/FHE-Efficiency-Comparison#query-matching)
   + [Innovative Points](https://github.com/handsomelky/FHE-Efficiency-Comparison#innovative-points)
 
 + Experiments and Analysis
-  + [Experiment Environment](https://github.com/handsomelky/FHE-Efficiency-Comparison#experiment-environment)
+  + [Experiment Environment](https://github.com/handsomelky/FHE-Efficiency-Comparison#experimental-environment)
   + [BFV](https://github.com/handsomelky/FHE-Efficiency-Comparison#bfv)
   + [CKKS](https://github.com/handsomelky/FHE-Efficiency-Comparison#ckks)
-  + [Comparing Different Parameters](https://github.com/handsomelky/FHE-Efficiency-Comparison#comparing-different-parameters)
+  + [Comparing Different Parameters](https://github.com/handsomelky/FHE-Efficiency-Comparison#comparison-of-different-parameters)
 
 + [Contributions](https://github.com/handsomelky/FHE-Efficiency-Comparison#contributions)
 
