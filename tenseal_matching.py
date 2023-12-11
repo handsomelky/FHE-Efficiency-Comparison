@@ -7,6 +7,7 @@ import os
 import time
 import sys
 import json
+import shutil
 
 def load_context(file_path):
     with open(file_path, "rb") as f:
@@ -149,7 +150,19 @@ def main():
 
     context = load_context(args.context)
 
-    if not os.path.exists(args.output_folder):
+    if os.path.exists(args.output_folder):
+        # 清空文件夹
+        for file in os.listdir(args.output_folder):
+            file_path = os.path.join(args.output_folder, file)
+            try:
+                if os.path.isfile(file_path):
+                    os.unlink(file_path)
+                elif os.path.isdir(file_path):
+                    shutil.rmtree(file_path)
+            except Exception as e:
+                print(f"Error while deleting file {file_path}: {e}")
+    else:
+        # 创建文件夹
         os.makedirs(args.output_folder)
 
     match_and_decrypt_images(args.input_folder, args.database, args.algorithm, context, args.output_folder)

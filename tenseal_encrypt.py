@@ -122,8 +122,20 @@ def main():
         # 序列化并保存公钥上下文
         save_context(context, os.path.join(keys_folder, "public_context"))
 
-    # 创建保存加密数据的文件夹
-    if not os.path.exists(args.output_folder):
+    # 创建保存加密数据的文件夹，如果已存在且包含文件，则先清空
+    if os.path.exists(args.output_folder):
+        # 清空文件夹
+        for file in os.listdir(args.output_folder):
+            file_path = os.path.join(args.output_folder, file)
+            try:
+                if os.path.isfile(file_path):
+                    os.unlink(file_path)
+                elif os.path.isdir(file_path):
+                    shutil.rmtree(file_path)
+            except Exception as e:
+                print(f"Error while deleting file {file_path}: {e}")
+    else:
+        # 创建文件夹
         os.makedirs(args.output_folder)
 
     # 展示加密时间
